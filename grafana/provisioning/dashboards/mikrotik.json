@@ -1,1 +1,23 @@
+{
+  "id": null,
+  "title": "MikroTik Monitoring",
+  "schemaVersion": 16,
+  "version": 0,
+  "panels": [
+    {
+      "type": "graph",
+      "title": "CPU Usage",
+      "targets": [
+        { "expr": "system_cpu_load" }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Memory Usage",
+      "targets": [
+        { "expr": "system_memory_usage" }
+      ]
+    }
+  ]
+}
 
